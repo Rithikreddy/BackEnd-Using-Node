@@ -1,0 +1,11 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "BMI calculation using backend nodejs technology",
+  "main": "bmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rithikreddy",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<!-- file location has to be mentioned inside the quotes -->
+<h1>Home</h1>
+<p ><%= template %></p>
+<% for(var i=0;i<newitem.length;i++) {%>
+  <h1><%= newitem[i].title %></h1>
+  <!-- <a style = "color:dark; font-size:2.5em;font-family:sans-serif" href="/home/<%= newitem[i].title %>"><strong><%= newitem[i].title %></strong></a> -->
+  <p><%=newitem[i].post.substr(0,100)+"..." %>
+  <a href="/home/<%= newitem[i].title %>">Read More</a></p>
+<% } %>
+<%- include("partials/footer") -%>

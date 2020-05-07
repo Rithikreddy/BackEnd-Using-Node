@@ -1,0 +1,17 @@
+{
+  "name": "email_subscription_project",
+  "version": "1.0.0",
+  "description": "This is a website built for the users to subscribe using email.This is built using nodejs and express backend frameworks and bootstrap frontend framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rithikreddy K",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
